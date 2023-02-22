@@ -18,18 +18,18 @@ namespace HitmanPatcher
 
         private static readonly Dictionary<string, string> functions = new Dictionary<string, string>
         {
-            { "[物品] 解锁所有物品", "items.add-unlockables-stashpoint"},
-            {"[物品] 物品数量*100","items.add-unlockables-num" },
-            {"[物品] “所有物品”物品","items.all-items" },
-            {"[物品] 解锁所有西装","items.add-unlockables-disguise" },
-            {"[入口] 解锁所有入口","entrance.unlock-all" },
-            {"[计划] 解除计划限制（西装等）","planning.remove-limits" },
-            {"[计划] 解锁全部物品藏匿点","agency-pickups.unlock-all" },
-            {"[物品] 添加地图内的伪装到西装", "items.add-map-disguises"},
-            {"[物品] 额外物品包 1","items.extra-items-1" },
-            {"[物品] 自定义 RepoID (放入 custom-items.json )","items.custom-repoid" },
-            {"[游戏] 去除失败惩罚（自由人）","gameplay.no-fail-punishment" },
-            {"[自由人] 自带所有物品","freelancer.all-items" }
+            { "Unlock All Items", "items.add-unlockables-stashpoint"},
+            {"All Items x100","items.add-unlockables-num" },
+            {"Unlock \"All Items\" Item","items.all-items" },
+            {"Unlock All Suits","items.add-unlockables-disguise" },
+            {"Unlock All Entry Points","entrance.unlock-all" },
+            {"Disable Plan Restrictions","planning.remove-limits" },
+            {"Unlock All Agency Pickups","agency-pickups.unlock-all" },
+            {"Unlock All Disguises", "items.add-map-disguises"},
+            {"Unlock Item Pack 1","items.extra-items-1" },
+            {"Custom Items RepoID (custom-items.json)","items.custom-repoid" },
+            {"Disable Mission Failed","gameplay.no-fail-punishment" },
+            {"Unlock All Items In Freelancer","freelancer.all-items" }
         };
 
         public static readonly Dictionary<string, bool> functionEnabled = new Dictionary<string, bool>

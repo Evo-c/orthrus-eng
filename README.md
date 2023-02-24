@@ -1,6 +1,7 @@
-<div align=center><h1>Orthrus</h1></div>
+<div align=center><h1>Orthrus - English Translation</h1></div>
+<div align=center><h3>Author: <a href=https://github.com/MicroCBer>MicroCBer</a></h3></div>
 
-<div align=center><a align=center href=https://github.com/Evo-c/orthrus-eng>English Version</a></div>
+<div align=center><a align=center href=https://github.com/MicroCBer/orthrus>Chinese Version</a></div>
 
 功能列表：
 ```
